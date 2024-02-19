@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logo" height="120rem">
+        </a>
+    </header>
+
+    <nav class="nav">
+        <a class="nav__link" href="index.html">Tienda</a>
+        <a class="nav__link" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="container">
+        <h1>Playera Dark Charcoal</h1>
+
+        <div class="shirt">
+            <img class="shirt__img" src="img/product-1-dark-charcoal.webp" alt="shirt">
+
+            <div class="shirt__content">
+                <p>Nullam eu erat tellus. Morbi at fringilla elit, id sodales diam. Maecenas accumsan, nisl in sagittis
+                    condimentum, erat mauris aliquet quam, pulvinar pulvinar massa lorem nec ante. Nam ante nulla,
+                    mattis ac nibh eget, dignissim luctus urna.</p>
+
+                    <form class="form" action="#">
+                        <select class="form__field">
+                            <option selected disabled>Seleccionar talla</option>
+                            <option>Chica</option>
+                            <option>Mediana</option>
+                            <option>Grande</option>
+                        </select>
+                        <input class="form__field" type="number" placeholder="Cantidad" min="1">
+                        <input class="form__submit" type="submit" value="Agregar al Carrito">
+                    </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Juan Manuel Fuentes Sarmiento © Todos los derechos reservados - 2024</p>
+    </footer>
+</body>
+
+</html>
